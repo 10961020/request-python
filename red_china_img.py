@@ -1,7 +1,14 @@
 # !/usr/bin/python  
 # encoding: utf-8
 # author: zhangtong
-
+'''
+爬取 红动中国 图片素材
+    # folder_path   保存文件路径
+    # url           在此网站里搜索素材的结果网址(不懂把下边的url的网址复制打开一看便知)
+    修改这俩就可以把当前所以数据获取下来
+    
+    PS 红动中国下载的图片在下方都会有高度为 30xp 的黑背景水印 19到25行 执行即可去除这段水印 修改walk参数路径
+'''
 import cv2
 import time
 import os
