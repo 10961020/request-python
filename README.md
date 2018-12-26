@@ -3,7 +3,8 @@
 本人对 免费 给大众整理资源、提供资源的网站 一概不爬  
 
 学习此目录下的.pdf可快速入门requests库，爬虫利器
-配合 https://www.bilibili.com/video/av19057145 视频观看效果更佳
+配合 https://www.bilibili.com/video/av19057145 视频观看效果更佳  
+更多python基础，爬虫入门，机器学习知识可以查看我的B站收藏夹 http://space.bilibili.com/269338062? 
 
 爬取数据使用  
 每次想要爬取新的数据就会把先看看car&home.py找找灵感  
