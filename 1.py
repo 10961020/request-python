@@ -1,7 +1,9 @@
 # !/usr/bin/python
 # encoding: utf-8
 # author: zhangtong
-
+'''
+    爬取汽车之家图片
+'''
 import requests
 import re
 import os
@@ -32,7 +34,5 @@ for i in list1:
             img_name = folder_path + y[y.find('_'):]
             with open(img_name, 'wb') as file:
                 file.write(response_4.content)
-                file.flush()
-            file.close()
         time.sleep(1)
         print('~~~~~~~~~~~~~~~我没死')
