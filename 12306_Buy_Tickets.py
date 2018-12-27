@@ -1,6 +1,20 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
+# author: zhangtong
+'''
+2018-05-08
+学习爬虫之后唯一一个拿得出手的爬虫脚本吧 红红火火恍恍惚惚
+参考内容 https://blog.csdn.net/nonoroya_zoro/article/details/80108722  
+脚本演示视频网址 https://weibo.com/tv/v/GfGnskP5d?fid=1034:4a0f4e88b659eedd7e56a6ae0ec49002
+手动输入验证码 比如 8个照片 第3，4为正确选项 输入 2，3 即可 （12306验证模块以0开头 0-7 不是 1-8）
+输入账号密码登入 （源码你都看的到 盗不了你的号）
+输入起始点，抵达点 可以查票
+输入车次 座位 乘车人名称 即可买票成功 
+成功后可以去12306官网个人中心->火车票订票->未完成订单中查看
 
+PS:验证码图片下载后弹出的方式有点不太友好 懒得改了 可以选择配合matplotlib展示，或者使用cv2 反正我是懒得改了
+    没写循环 输入错误就直接退出 没加优化 只是为了练手
+'''
 import requests
 from PIL import Image
 from requests.packages import urllib3
