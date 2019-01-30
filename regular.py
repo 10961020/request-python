@@ -8,7 +8,9 @@ import imghdr
 import time
 import threading
 import shutil
-
+'''
+    根据vio_surveil_xxx.dat文件的内容寻找对应的图片信息，进行合格分类统计
+'''
 img_dir_src = '/data/TRAS/WF/'                       # 源图片文件夹
 vio_surveil_xxx = '/data/TRAS/bak/WF/'               # vio_surveil_xxx.dat文件路径
 csv_dir_src = '/usr/local/TRAS/Imgdect/Out/'         # csv存储路径
